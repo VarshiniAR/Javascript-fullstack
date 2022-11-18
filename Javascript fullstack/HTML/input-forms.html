@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input-Forms</title>
+</head>
+<body>
+    <h1>Form with various inputs</h1>
+    <form action="">
+        First name: <input type="text" name="name" autocomplete="username"> <br> <br>
+        
+        <fieldset>
+        <legend>Fav flowers</legend>
+        <div>
+            <input type="checkbox" name="flower" id="rose" />
+            <label for="rose">Rose</label>
+        </div>
+        <div>
+            <input type="checkbox" name="flower" id="Jasmine" />
+            <label for="Jasmine">Jasmine</label>
+        </div> 
+        </fieldset> <br>
+
+        
+        <legend>Color picker</legend>
+        <div>
+            <input type="color" name="Color picker" />
+            <label for="Color picker">Color</label> 
+        </div> <br>
+
+        Image: <input type="image" src="./images/river.jpg" alt="river" width="100" height="100"> <br><br>
+
+        Date: <input type="date" name="datePicker" value="2018-01-02" min="2018-01-01" max="2018-12-31"> <br>
+        Date and Time: <input type="datetime-local" name="date-and-time" value="2018-06-27T00:00"
+       min="2018-06-07T00:00" max="2050-12-07T00:00"> <br>
+       Email: <input type="email" name="Email" id="Email"><br>
+       Upload File: <input type="file" name="File" id="file"><br>
+       Enter Password: <input type="password" name="password" id="password" minlength="4" required > <br>
+       Enter URL: <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*.com" size="30" required><br>
+       Time: <input type="time" name="time" id="time" value="13:30"><br>
+       phone number: <input type="tel" name="ph-num" id="ph-no"><br>
+       Range: <input type="range" name="range" id="range" min="0" max="100" value="80"><br>
+       Hidden: <input type="hidden" name="hidden" id="password" value="98765453"> <br>
+
+       <fieldset>
+        <legend>Gender:</legend>
+        <div>
+          <input type="radio" id="male" name="gender" value="male"
+                 checked>
+          <label for="male">Male</label>
+        </div>
+    
+        <div>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label>
+        </div>
+    </fieldset>
+    
+        Button: <input type="submit" value="Submit"/> 
+        <input type="reset" value="Reset"/> 
+        <input type="button" value="Add to list" /> 
+        <button type="reset"> Add to list</button> <br> <br>
+
+        
+    </form>
+
+    <!-- value is a placeholder value -->
+    <!-- button has more styling options like insert picture than input type button -->
+    <!-- value data not displayed on the client-side, but on the server this is the value given to the data submitted  -->
+    <!-- legend - caption for the content -->
+</body>
+</html>

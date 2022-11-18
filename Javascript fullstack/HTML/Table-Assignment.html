@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School timetable</title>
+</head>
+<body>
+    <h2>School timetable</h2>
+    <table cellspacing="0" cellpadding="10" border="1" align="center" >
+         <colgroup>
+         <col>
+         <col>
+         <col>
+         <col bgcolor="orange">
+         <col>
+         <col>
+         <col>
+        <col bgcolor="orange">
+        <col>
+        <col>
+        <col>
+        </colgroup>
+
+        <!-- colgroup and col - same styling added for a specific cols to avoid repeated code . if no styling for a particular col add empty <col> -->
+
+        <tr>
+            <th colspan="11"  bgcolor="violet" >Class - VI </th>
+        </tr>
+        
+        <tr align="center">
+            <th>Days</th>
+            <th>1</th>
+            <th>2</th>
+            <th rowspan="8" > Break</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th rowspan="8" >Lunch break</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+        </tr>
+    
+        <tr>
+            <th>Monday</th>
+            <td colspan="2" align="center">Maths</td>
+            <td>Science</td>
+            <td>Social</td>
+            <td>Tamil</td>
+            <td>Social</td>
+            <td>P.T</td>
+            <td>Maths</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td>Science</td>
+            <td>Eng</td>
+            <td>Social</td>
+            <td>Tamil</td>
+            <td>Eng</td>
+            <td colspan="2" align="center">Social</td>
+            <td>Maths</td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td>Social</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td colspan="2" align="center">Maths</td>
+            <td>Eng</td>
+            <td>Tamil</td>
+            <td>Social</td>
+            
+        </tr>
+        <tr>
+            <th>Thurday</th>
+            <td>Tamil</td>
+            <td>Social</td>
+            <td>Maths</td>
+            <td>Eng</td>
+            <td>Tamil</td>
+            <td>Social</td>
+            <td colspan="2" align="center">P.T</td>
+    
+        </tr>
+        <tr>
+            <th>Friday</th>
+            <td colspan="2" align="center">Eng</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Tamil</td>
+            <td>Social</td>
+            <td>P.T</td>
+            <td>Maths</td>
+        </tr>
+    </table>
+
+    <!-- bgcolor , align are some of the deprecated properties which needs to be styled using CSS but here we use as we are using only HTML for this assignment -->
+</body>
+</html>

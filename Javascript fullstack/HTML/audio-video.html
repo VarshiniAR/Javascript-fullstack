@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio and video</title>
+</head>
+<body>
+    <h1>Audio and video</h1>
+    <h2>Audio</h2>
+    <audio src="music/drop-it.mp3" controls ></audio> <br>
+    <!-- controls - allows user to play, pause control the music (so mandatory) -->
+
+    <h4>with source tag</h4>
+    <!-- source tag- browser is able to instantly tell if it can play that file, and not waste time on it if not. -->
+    
+    <audio controls>
+        <source src="music/drop-it.mp3" type="audio/mp3" />
+        <a href="music/drop-it.mp3" controls >Download WAV audio</a>.
+    </audio>
+
+    <h4>Video</h4>
+
+    <video src="video/sample video.mp4" autoplay="true" width="350"></video><br>
+
+    <h4>Source tag</h4>
+    <video controls>
+        <source src="video/sample video.mp4" type="video/mp4">
+        <a href="video/sample video.mp4" controls> video </a>
+    </video>
+    <!-- multiple sources can also be used -->
+</body>
+</html>

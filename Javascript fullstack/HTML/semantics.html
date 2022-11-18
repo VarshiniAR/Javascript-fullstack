@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantics</title>
+</head>
+<body>
+    <h1>Semantics</h1>
+    <!-- Semantics - Added to add meaning to every content in HTML - make screen readers easier to understand the content  -->
+
+    <!-- Header - typically a group of introductory -->
+    <header>
+        <h4> Header - Typically a group of introductory elements </h4>
+    </header>
+    <hr>
+
+     <!-- nav - used for nv bar navigation or sidebar or drop down menu with links for navigation -->
+     <!-- nav tag usually contains list but can contain any type of element -->
+     <h4>Nav bar</h4>
+     <nav class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    <hr>
+
+    <!-- article - Independent content in a web page  -->
+    <h4>Article</h4>
+    <article>
+        <article>
+            <h3>Article 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, iste?</p>
+        </article>
+        <article>
+            <h3>Article 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque labore aperiam sunt!</p>
+            <footer>
+                © 2018 varshini ( Footer inside article)
+            </footer>
+        </article>
+    </article>
+
+    <hr>
+
+    <!-- aside - content indirectly related to the main content -->
+    <h4>Aside</h4>
+    <aside>
+        <p> Aside - content indirectly related to the main content . Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, odit.</p>
+    </aside>
+
+    <hr>
+
+    <h2>Image with caption</h2>
+    <figure>
+    <img src="./images/river.jpg" alt="river" width="100">
+    <figcaption>Image - River with sunrise and trees</figcaption>
+    <!-- caption for a image -->
+    </figure>
+    <hr>
+
+    <!-- Details - information is visible only when the widget is toggled into an "open" state.  -->
+    <details>
+        <summary> Details tag - summary </summary>
+        <!-- summary - first child of details -->
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non dicta ab, eum vitae veniam commodi ut. Laboriosam et ipsam tenetur iure molestias voluptatibus voluptas quidem?</p>
+    </details><br>
+
+    <hr>
+
+    <!-- Time element is for presenting dates and times in a machine-readable format . No stylingadded to highlight, mostly added mainly for screen readers to understand the purpose or content more clearly -->
+    <h4>Time tag - Time is displayed using time tag <time datetime="2018-07-07">July 7</time></h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, delectus! <time datetime="20:00">20:00</time> Time is displayed in a tag </p>
+    <hr>
+
+    <section>
+        <h4>Section can contain any elements but must have header</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, vel?</p>
+    </section>
+    <hr>
+
+    <!-- Footer - rep for nearest ancestors -->
+    <footer>
+        Footer- Some copyright info or perhaps some author info for an &lt;article&gt;
+    </footer>
+
+</body>
+</html>
